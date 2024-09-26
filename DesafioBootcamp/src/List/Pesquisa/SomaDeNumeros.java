@@ -49,8 +49,9 @@ public class SomaDeNumeros {
         somaDeNumeros.adicionarNumero(20, 100);
 
         System.out.println(somaDeNumeros.calcularSoma());
-        somaDeNumeros.encontrarMaiorNumero();
         somaDeNumeros.encontrarMenorNumero();
+        somaDeNumeros.encontrarMaiorNumero();
+
         somaDeNumeros.exibirNumeros();
 
     }
