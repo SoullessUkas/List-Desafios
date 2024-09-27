@@ -34,6 +34,7 @@ public class SomaDeNumeros {
     }
 
     public void encontrarMaiorNumero() {
+        Collections.sort(numerosInteiros);
         Collections.reverse(numerosInteiros);
         System.out.println("Maior Numero: " + numerosInteiros.get(0));
     }
