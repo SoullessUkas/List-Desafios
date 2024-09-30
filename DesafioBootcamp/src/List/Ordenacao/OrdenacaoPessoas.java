@@ -10,7 +10,7 @@ public class OrdenacaoPessoas {
     private List<Pessoa> listaPessoas;
 
     public OrdenacaoPessoas() {
-        this.listaPessoas = new ArrayList();
+        this.listaPessoas = new ArrayList<>();
     }
 
     public void adicionarPessoa(String nome, double altura, int idade) {
