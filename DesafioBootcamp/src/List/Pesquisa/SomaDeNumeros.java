@@ -11,7 +11,7 @@ public class SomaDeNumeros {
     Random random = new Random();
 
     // Tive a liberdade de alterar essa adição de numeros requisitada para que se
-    // torne automatica
+    // tornei automatica
     public void adicionarNumero(int limiteDeInteiros, int limite) {
         for (int i = 0; i < limiteDeInteiros; i++) {
             int numero = random.nextInt(limite);
