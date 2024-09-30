@@ -1,33 +1,34 @@
-package Set;
-
-public class Convidado {
-    // atributos
+public class Contato {
     private String nome;
-    private int codigoConvite;
+    private int numero;
 
-    public Convidado(String nome, int codigoConvite) {
+    public Contato(String nome, int numero) {
         this.nome = nome;
-        this.codigoConvite = codigoConvite;
+        this.numero = numero;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public int getCodigoConvite() {
-        return codigoConvite;
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
     }
 
     @Override
     public String toString() {
-        return "Convidado [nomeString=" + nome + ", codigoConvite=" + codigoConvite + "]\n";
+        return "Contato [nome=" + nome + ", numero=" + numero + "]\n";
     }
 
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + codigoConvite;
+        result = prime * result + ((nome == null) ? 0 : nome.hashCode());
         return result;
     }
 
@@ -39,11 +40,13 @@ public class Convidado {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Convidado other = (Convidado) obj;
-        if (codigoConvite != other.codigoConvite)
+        Contato other = (Contato) obj;
+        if (nome == null) {
+            if (other.nome != null)
+                return false;
+        } else if (!nome.equals(other.nome))
             return false;
         return true;
     }
 
-    
 }
