@@ -53,9 +53,9 @@ public class GerenciadorAlunos {
         gerenciadorAlunos.adicionarAluno("Bianca", 144473L, 8.5);
         gerenciadorAlunos.adicionarAluno("Felipe", 144474L, 9.8);
         gerenciadorAlunos.adicionarAluno("Carla", 144475L, 7.2);
-        //gerenciadorAlunos.exibirAlunos();
-       //gerenciadorAlunos.exibirAlunosPorNome();
-        //gerenciadorAlunos.exibirAlunosPorNota();
+        // gerenciadorAlunos.exibirAlunos();
+        // gerenciadorAlunos.exibirAlunosPorNome();
+        // gerenciadorAlunos.exibirAlunosPorNota();
     }
 
 }
