@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CarrinhoDeCompras",
+            "request": "launch",
+            "mainClass": "List.OperacoesBasicas.CarrinhoDeCompras",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "ListaTarefa",
+            "request": "launch",
+            "mainClass": "List.OperacoesBasicas.ListaTarefa",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "OrdenacaoPessoas",
+            "request": "launch",
+            "mainClass": "List.Ordenacao.OrdenacaoPessoas",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "CatalogoLivros",
+            "request": "launch",
+            "mainClass": "List.Pesquisa.CatalogoLivros",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "SomaDeNumeros",
+            "request": "launch",
+            "mainClass": "List.Pesquisa.SomaDeNumeros",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "EstoqueProdutos",
+            "request": "launch",
+            "mainClass": "Map.Pesquisa.EstoqueProdutos",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "AgendaContatos",
+            "request": "launch",
+            "mainClass": "Map.operacoesBasicas.AgendaContatos",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "Dicionario",
+            "request": "launch",
+            "mainClass": "Map.operacoesBasicas.Dicionario",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "ConjuntoConvidados",
+            "request": "launch",
+            "mainClass": "Set.OperacoesBasicas.ConjuntoConvidados",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "ConjuntoPalavrasUnicas",
+            "request": "launch",
+            "mainClass": "Set.OperacoesBasicas.ConjuntoPalavrasUnicas",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "AgendaContatos(1)",
+            "request": "launch",
+            "mainClass": "Set.Pesquisa.AgendaContatos",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "ListaTarefas",
+            "request": "launch",
+            "mainClass": "Set.Pesquisa.ListaTarefas",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "CadastroProdutos",
+            "request": "launch",
+            "mainClass": "Set.ordenacao.CadastroProdutos",
+            "projectName": "List-Desafios_9f3cfa9d"
+        },
+        {
+            "type": "java",
+            "name": "GerenciadorAlunos",
+            "request": "launch",
+            "mainClass": "Set.ordenacao.GerenciadorAlunos",
+            "projectName": "List-Desafios_9f3cfa9d"
+        }
+    ]
+}
